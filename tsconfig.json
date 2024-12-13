@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",          // 目标 ECMAScript 版本
+      "module": "CommonJS",        // 使用 CommonJS 模块系统
+      "strict": true,              // 启用所有严格类型检查选项
+      "esModuleInterop": true,     // 启用对 ES 模块的互操作性
+      "skipLibCheck": true,        // 跳过库文件的类型检查
+      "forceConsistentCasingInFileNames": true // 强制文件名一致
+    },
+    "include": [
+      "./**/*.ts"                  // 包含所有 TypeScript 文件
+    ],
+    "exclude": [
+      "node_modules"               // 排除 node_modules 目录
+    ]
+  }
